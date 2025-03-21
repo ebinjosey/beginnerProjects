@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhyChrome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>PhyChrome</h2>
+
+    <div class="section">
+        <h3>Concept of the Day</h3>
+        <div id="concept" class="concept"></div>
+    </div>
+
+    <div class="section">
+        <h3>Unit Converter</h3>
+        <div class="unit-converter">
+            <input type="number" id="value" placeholder="Value" />
+            <select id="fromUnit"></select>
+            <span>to</span>
+            <select id="toUnit"></select>
+            <button id="convert">Convert</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="concepts.js"></script>
+    <script src="converter.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
