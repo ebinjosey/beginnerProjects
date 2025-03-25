@@ -59,7 +59,9 @@ body {
 .fact-area .fact {
     font-size: 20px;
     text-align: center;
-    word-break: break-all;
+    word-break: normal;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 .wrapper .buttons {
