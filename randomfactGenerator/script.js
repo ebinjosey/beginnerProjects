@@ -18,6 +18,7 @@ function randomFact() {
 
 soundBtn.addEventListener("click", ()=>{
     let utterance = new SpeechSynthesisUtterance('${factBtn.innerText}');
+    speechSynthesis.speak(utterance);
 })
 
 
