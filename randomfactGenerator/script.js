@@ -8,7 +8,6 @@ function randomFact() {
     factBtn.classList.add("loading");
     factBtn.innerText = "Loading Fact..."
     fetch("https://uselessfacts.jsph.pl/api/v2/facts/random").then(res => res.json()).then(result =>{
-        console.log(result)
         factText.innerText = result.text;
         factBtn.innerText = "New Fact";
         factBtn.classList.remove("loading");
@@ -17,9 +16,13 @@ function randomFact() {
 
 
 soundBtn.addEventListener("click", ()=>{
-    let utterance = new SpeechSynthesisUtterance('${factBtn.innerText}');
+    let utterance = new SpeechSynthesisUtterance(`${factText.innerText}`);
     speechSynthesis.speak(utterance);
-})
+});
+
+copyBtn.addEventListener("click", ()=>{
+    navigator.clipboard.writeText(factText.innerText);
+});
 
 
 factBtn.addEventListener("click", randomFact);
