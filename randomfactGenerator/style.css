@@ -69,5 +69,26 @@ body {
 .buttons .features {
     display: flex;
     align-items: center;
+    margin-top: 20px;
     justify-content: space-between;
+}
+
+.features ul {
+    display: flex;
+}
+
+.features ul li {
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #EDF0DA;
+}
+
+.features ul button {
+    
 }
