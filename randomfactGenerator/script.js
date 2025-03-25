@@ -1,5 +1,8 @@
 const factText = document.querySelector(".fact"),
-factBtn = document.querySelector("button");
+factBtn = document.querySelector("button"),
+soundBtn = document.querySelector(".sound"),
+copyBtn = document.querySelector(".copy"),
+twitterBtn = document.querySelector(".twitter");
 
 function randomFact() {
     factBtn.classList.add("loading");
