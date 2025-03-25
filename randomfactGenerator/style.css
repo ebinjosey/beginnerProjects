@@ -20,4 +20,15 @@ body {
     background: #EDF0DA;
 }
 
-  
+.wrapper {
+    width: 600px;
+    background: #FFF;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper header {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
