@@ -42,7 +42,32 @@ body {
     justify-content: center;
 }
 
+.fact-area i{
+    font-size: 18px;
+}
+
+.fact-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.fact-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
 .fact-area .fact {
     font-size: 20px;
     text-align: center;
+    word-break: break-all;
+}
+
+.wrapper .buttons {
+    border-top: 1px solid #ccc;
+}
+
+.buttons .features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
