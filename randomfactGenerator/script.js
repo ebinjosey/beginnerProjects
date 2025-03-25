@@ -24,5 +24,10 @@ copyBtn.addEventListener("click", ()=>{
     navigator.clipboard.writeText(factText.innerText);
 });
 
+twitterBtn.addEventListener("click", ()=>{
+    let tweetUrl = `https://x.com/compose/post=${factText.innerText}`;
+    window.open(tweetUrl, "_blank");
+});
+
 
 factBtn.addEventListener("click", randomFact);
