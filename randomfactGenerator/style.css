@@ -83,10 +83,18 @@ body {
     height: 47px;
     width: 47px;
     display: flex;
+    cursor: pointer;
+    color: #435058;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid #EDF0DA;
+    border: 2px solid #435058;
+    transition: all 0.4s ease;
+}
+
+.features ul li:hover {
+    color: #FFF;
+    background-color: #435058;
 }
 
 .features button {
