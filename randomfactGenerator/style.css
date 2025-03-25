@@ -89,6 +89,13 @@ body {
     border: 2px solid #EDF0DA;
 }
 
-.features ul button {
-    
+.features button {
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    font-style: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background-color: #435058;
 }
