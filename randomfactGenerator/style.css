@@ -107,3 +107,8 @@ body {
     border-radius: 30px;
     background-color: #435058;
 }
+
+button.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
