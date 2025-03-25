@@ -15,4 +15,10 @@ function randomFact() {
     });
 }
 
+
+soundBtn.addEventListener("click", ()=>{
+    let utterance = new SpeechSynthesisUtterance('${factBtn.innerText}');
+})
+
+
 factBtn.addEventListener("click", randomFact);
