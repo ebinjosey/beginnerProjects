@@ -25,7 +25,7 @@ copyBtn.addEventListener("click", ()=>{
 });
 
 twitterBtn.addEventListener("click", ()=>{
-    let tweetUrl = `https://x.com/compose/post=${factText.innerText}`;
+    let tweetUrl = `https://x.com/intent/tweet?text=${factText.innerText}`;
     window.open(tweetUrl, "_blank");
 });
 
