@@ -32,3 +32,17 @@ body {
     font-weight: 700;
     text-align: center;
 }
+
+.wrapper .content {
+    margin: 35px 0;
+}
+
+.content .fact-area {
+    display: flex;
+    justify-content: center;
+}
+
+.fact-area .fact {
+    font-size: 20px;
+    text-align: center;
+}
