@@ -1,1 +1,14 @@
+:root {
+    --primary: #d81esd;
+    --secondary: #8a4fff;
+    --light: #eee;
+    --grey: #aaa;
+    --dark:#1e2f42;
+}
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    font-family: 'Times New Roman',  serif;
+}
