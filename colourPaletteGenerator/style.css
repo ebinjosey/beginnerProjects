@@ -71,3 +71,21 @@ h4 {
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
+.colours {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .colours {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .colours {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
