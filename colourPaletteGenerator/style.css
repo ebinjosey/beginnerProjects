@@ -1,5 +1,5 @@
 :root {
-    --primary: #d81esd;
+    --primary: #D81E5D;
     --secondary: #8a4fff;
     --light: #eee;
     --grey: #aaa;
@@ -12,6 +12,18 @@
     padding: 0;
 
     font-family: 'Times New Roman', sans-serif;
+}
+
+button, input {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
 }
 
 body {
@@ -35,4 +47,14 @@ p {
     color: var(--grey);
     font-size: 1.25rem;
     margin-bottom: 2rem;
+}
+
+.generator-btn {
+    color: var(--primary);
+    font-size: inherit;
+    font-weight: 700;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-in;
 }
