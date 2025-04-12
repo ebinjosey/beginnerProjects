@@ -108,6 +108,9 @@ h4 {
 }
 
 @media (min-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
     .colours {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -116,5 +119,11 @@ h4 {
 @media (min-width: 1024px) {
     .colours {
         grid-template-columns: repeat(5, 1fr);
+    }
+
+    .colour {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
