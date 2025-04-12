@@ -94,6 +94,15 @@ h4 {
     border-color: red;
 }
 
+.lock-toggle {
+    opacity: 0.5s;
+    transition: 0.4s;
+}
+
+.lock-toggle.is-locked {
+    opacity: 1;
+}
+
 @media (min-width: 768px) {
     .colours {
         grid-template-columns: repeat(2, 1fr);
