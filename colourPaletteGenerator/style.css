@@ -95,7 +95,7 @@ h4 {
 }
 
 .lock-toggle {
-    opacity: 0.5s;
+    opacity: 0.5;
     transition: 0.4s;
 }
 
