@@ -30,3 +30,9 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
+
+p {
+    color: var(--grey);
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
