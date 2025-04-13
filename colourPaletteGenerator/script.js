@@ -37,7 +37,9 @@ class Colour {
         let hex = "#";
 
         for (let i = 0; i < 6; i++) {
-            hex += chars[Math.floor(Math.random() * 16)]
+            hex += chars[Math.floor(Math.random() * 16)];
         }
+
+        this.setHex(hex);
     }
 }
