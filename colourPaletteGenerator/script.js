@@ -81,13 +81,13 @@ for (let i=0; i < colour_elements.length; i++) {
 }
 
 document.querySelector('.generator-btn').addEventListener('click', () => {
-    for (let i = 0; i < colours_length; i++) {
+    for (let i = 0; i < colours.length; i++) {
         colours[i].generateHex();
         }
 });
 
 document.addEventListener('keydown', (e) => {
-    if (e.code () === 'Space') {
+    if (e.code === 'Space') {
         e.preventDefault();
         for (let i = 0; i < colours.length; i++) {
             colours[i].generateHex();
