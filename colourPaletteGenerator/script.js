@@ -59,3 +59,17 @@ class Colour {
 const colour_elements = document.querySelector('.colours .colour')
 
 const colours = [];
+
+for (let i=0; i < colour_elements.length; i++) {
+    const colour_element = colour_elements[i];
+
+
+    const input = colour_element.querySelector('.colour-input');
+    const lock_toggle = colour_element.querySelector('.lock-toggle');
+    const copy_hex = colour_element.querySelector('.copy-hex');
+
+    const hex = input.value;
+
+    const colour = new Colour(hex, colour_element);
+    colours.push(colour);
+}
