@@ -27,4 +27,10 @@ class Colour {
     toggleLocked () {
         this.setLocked(!this.locked);
     }
+
+    generateHex () {
+        if (this.locked) {
+            return;
+        }
+    }
 }
