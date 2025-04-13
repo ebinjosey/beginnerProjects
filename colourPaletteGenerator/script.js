@@ -55,3 +55,7 @@ class Colour {
         }, 1000);
     }
 }
+
+const colour_elements = document.querySelector('.colours .colour')
+
+const colours = [];
