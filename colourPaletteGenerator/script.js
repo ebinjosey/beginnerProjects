@@ -42,4 +42,16 @@ class Colour {
 
         this.setHex(hex);
     }
+
+    copytoClipboard () {
+        const input = this.element.querySelector('.color-input');
+        input.select()
+        document.execCommand('copy');
+        input.blur()
+
+        this.element.classList.add('copied');
+        setTimeout(() => {
+            this.element.classList.remove('copied');
+        }, 1000);
+    }
 }
