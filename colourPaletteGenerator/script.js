@@ -72,7 +72,7 @@ for (let i=0; i < colour_elements.length; i++) {
 
     const colour = new Colour(hex, colour_element);
 
-    input.addEventListener('input', () => colour.setHex(e.target.value));
+    input.addEventListener('input', (e) => colour.setHex(e.target.value));
     lock_toggle.addEventListener('click', () => colour.toggleLocked());
     copy_hex.addEventListener('click', () => colour.copytoClipboard) 
 
