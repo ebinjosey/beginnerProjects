@@ -16,10 +16,11 @@ class Colour {
 
         if (Locked) {
             this.element.classList.add('locked');
-            this.element.querySelector('img')
+            this.element.querySelector('img').src = 'icons/lock-closed.png'
         }
         else {
             this.element.classList.remove('locked');
+            this.element.querySelector('img').src = 'icons/lock-open.png'
         }
     }
 }
