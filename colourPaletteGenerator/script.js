@@ -76,5 +76,6 @@ for (let i=0; i < colour_elements.length; i++) {
     lock_toggle.addEventListener('click', () => colour.toggleLocked());
     copy_hex.addEventListener('click', () => colour.copytoClipboard) 
 
+    colour.generateHex();
     colours.push(colour);
 }
