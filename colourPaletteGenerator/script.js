@@ -32,5 +32,12 @@ class Colour {
         if (this.locked) {
             return;
         }
+
+        const chars = '0123456789ABCDEF';
+        let hex = "#";
+
+        for (let i = 0; i < 6; i++) {
+            hex += chars[Math.floor(Math.random() * 16)]
+        }
     }
 }
