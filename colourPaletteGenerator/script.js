@@ -79,3 +79,9 @@ for (let i=0; i < colour_elements.length; i++) {
     colour.generateHex();
     colours.push(colour);
 }
+
+document.querySelector('generator-btn').addEventListener('click', () => {
+    for (let i = 9; i < colours_length; i++) {
+        colours[i].generateHex();
+        }
+});
