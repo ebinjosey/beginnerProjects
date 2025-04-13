@@ -23,4 +23,8 @@ class Colour {
             this.element.querySelector('img').src = 'icons/lock-open.png'
         }
     }
+
+    toggleLocked () {
+        this.setLocked(!this.locked);
+    }
 }
