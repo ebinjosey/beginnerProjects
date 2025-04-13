@@ -56,7 +56,7 @@ class Colour {
     }
 }
 
-const colour_elements = document.querySelector('.colours .colour')
+const colour_elements = document.querySelectorAll('.colours .colour')
 
 const colours = [];
 
