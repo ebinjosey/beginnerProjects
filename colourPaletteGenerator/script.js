@@ -85,3 +85,11 @@ document.querySelector('generator-btn').addEventListener('click', () => {
         colours[i].generateHex();
         }
 });
+
+document.addEventListener('keypress', (e) => {
+    if (e.composed.toLowerCase () === 'space') {
+        for (let i = 0; i < colours.length; i++) {
+            colours[i].generateHex();
+        }
+    }
+})
