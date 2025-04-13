@@ -10,4 +10,16 @@ class Colour {
         this.element.style.backgroundColor= hex;
         this.element.querySelector('.colour-input').value = hex;
     }
+
+    setLocked (Locked) {
+        this.locked = Locked;
+
+        if (Locked) {
+            this.element.classList.add('locked');
+            this.element.querySelector('img')
+        }
+        else {
+            this.element.classList.remove('locked');
+        }
+    }
 }
