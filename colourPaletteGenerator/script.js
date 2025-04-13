@@ -81,7 +81,7 @@ for (let i=0; i < colour_elements.length; i++) {
 }
 
 document.querySelector('.generator-btn').addEventListener('click', () => {
-    for (let i = 9; i < colours_length; i++) {
+    for (let i = 0; i < colours_length; i++) {
         colours[i].generateHex();
         }
 });
