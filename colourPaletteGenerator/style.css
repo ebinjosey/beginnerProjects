@@ -15,6 +15,12 @@
     font-family: "Inter", sans-serif;
 }
 
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 button, input {
     appearance: none;
     border: none;
@@ -33,6 +39,7 @@ body {
 }
 
 main {
+    flex: 1;
     padding: 4rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -139,27 +146,21 @@ h4 {
     align-items: center;
     padding: 1.5rem 2rem;
     font-size: 0.9rem;
-    color: var(--grey);
+    color: var(--light);
     border-top: 1px solid  rgba(255, 255, 255, 0.1);
-    margin-top: 3rem;
+    margin-top: auto;
     flex-wrap: wrap;
 }
 
-.footer-left {
-    margin: 0;
-    font-style: italic;
-    opacity: 0.8;
+.site-footer p {
     color: var(--light);
 }
 
-.footer-left .author {
-    font-weight: bold;
-    color: #fff; 
-}
 
-.footer-right a {
-    color: var(--grey);
+.footer-middle a {
+    color: var(--light);
     text-decoration: none;
+    font-size: 1.2rem;
     margin-left: 20px;
     transition: all 0.3s ease;
     display: inline flex;
@@ -167,13 +168,13 @@ h4 {
     gap: 6px;
 }
 
-.footer-right a:hover {
-    color: #0ea5e9;
+.footer-middle a:hover {
+    color: #0b1a52;
     text-decoration: underline;
   }
   
   .footer-icon {
-    width: 18px;
-    height: 18px;
+    width: 36px;
+    height: 36px;
     object-fit: contain;
   }
