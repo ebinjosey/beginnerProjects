@@ -66,16 +66,14 @@ for (let i=0; i < colour_elements.length; i++) {
 
     const input = colour_element.querySelector('.colour-input');
     const lock_toggle = colour_element.querySelector('.lock-toggle');
-    const copy_hex = colour_element.querySelector('.copy-hex');
-
     const hex = input.value;
 
     const colour = new Colour(hex, colour_element);
+    colour_element.addEventListener("click", () => copytoClipboard());
 
     input.addEventListener('input', (e) => colour.setHex(e.target.value));
     lock_toggle.addEventListener('click', () => colour.toggleLocked());
-    copy_hex.addEventListener('click', () => colour.copytoClipboard()) 
-
+    colour_element.addEventListener('click', () => colour.copytoClipboard());
     colour.generateHex();
     colours.push(colour);
 }
