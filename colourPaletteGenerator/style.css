@@ -141,7 +141,7 @@ h4 {
 
 .site-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: var(--grey);
     align-items: center;
     padding: 1.5rem 2rem;
