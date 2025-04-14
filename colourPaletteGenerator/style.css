@@ -144,9 +144,8 @@ h4 {
     justify-content: center;
     background-color: var(--grey);
     align-items: center;
-    padding: 1.5rem 2rem;
-    height: auto;
-    font-size: 0.9rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
     color: var(--light);
     border-top: 1px solid  rgba(255, 255, 255, 0.1);
     margin-top: auto;
