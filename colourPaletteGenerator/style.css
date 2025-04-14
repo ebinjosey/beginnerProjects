@@ -41,6 +41,7 @@ h1 {
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    align-self: center;
 }
 
 p {
@@ -91,7 +92,7 @@ h4 {
 }
 
 .colour.copied {
-    border-color: red;
+    border-color: rgb(238, 84, 84);
 }
 
 .lock-toggle {

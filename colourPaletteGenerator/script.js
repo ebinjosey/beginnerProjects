@@ -16,11 +16,11 @@ class Colour {
 
         if (Locked) {
             this.element.classList.add('locked');
-            this.element.querySelector('img').src = 'icons/lock-closed.png'
+            this.element.querySelector('img').src = 'icons/lock-closed.svg'
         }
         else {
             this.element.classList.remove('locked');
-            this.element.querySelector('img').src = 'icons/lock-open.png'
+            this.element.querySelector('img').src = 'icons/lock-open.svg'
         }
     }
 
@@ -44,7 +44,7 @@ class Colour {
     }
 
     copytoClipboard () {
-        const input = this.element.querySelector('.color-input');
+        const input = this.element.querySelector('.colour-input');
         input.select()
         document.execCommand('copy');
         input.blur()
