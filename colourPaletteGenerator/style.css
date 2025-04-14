@@ -166,3 +166,14 @@ h4 {
     align-items: center;
     gap: 6px;
 }
+
+.footer-right a:hover {
+    color: #0ea5e9;
+    text-decoration: underline;
+  }
+  
+  .footer-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+  }
