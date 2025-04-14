@@ -145,6 +145,7 @@ h4 {
     background-color: var(--grey);
     align-items: center;
     padding: 1.5rem 2rem;
+    height: auto;
     font-size: 0.9rem;
     color: var(--light);
     border-top: 1px solid  rgba(255, 255, 255, 0.1);
@@ -152,10 +153,11 @@ h4 {
     flex-wrap: wrap;
 }
 
-.site-footer p {
-    color: var(--light);
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-
 
 .footer-middle a {
     color: var(--light);
