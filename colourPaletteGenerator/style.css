@@ -131,3 +131,16 @@ h4 {
         justify-content: center;
     }
 }
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--grey);
+    align-items: center;
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+    color: var(--grey);
+    border-top: 1px solid  rgba(255, 255, 255, 0.1);
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
