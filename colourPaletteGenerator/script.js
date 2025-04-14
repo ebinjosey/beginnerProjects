@@ -16,11 +16,11 @@ class Colour {
 
         if (Locked) {
             this.element.classList.add('locked');
-            this.element.querySelector('img').src = 'icons/lock-closed.svg'
+            this.element.querySelector('img').src = 'assets/lock-closed.svg'
         }
         else {
             this.element.classList.remove('locked');
-            this.element.querySelector('img').src = 'icons/lock-open.svg'
+            this.element.querySelector('img').src = 'assets/lock-open.svg'
         }
     }
 
