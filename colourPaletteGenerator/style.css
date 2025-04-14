@@ -156,3 +156,13 @@ h4 {
     font-weight: bold;
     color: #fff; 
 }
+
+.footer-right a {
+    color: var(--grey);
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+    display: inline flex;
+    align-items: center;
+    gap: 6px;
+}
