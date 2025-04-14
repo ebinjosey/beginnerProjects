@@ -29,6 +29,7 @@ button {
 
 body {
     background: var(--light);
+    background-image: url('assets/background-grain.jpg');
 }
 
 main {
