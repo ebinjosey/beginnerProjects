@@ -151,3 +151,8 @@ h4 {
     opacity: 0.8;
     color: var(--light);
 }
+
+.footer-left .author {
+    font-weight: bold;
+    color: #fff; 
+}
