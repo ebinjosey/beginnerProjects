@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-    --primary: #D81E5D;
-    --secondary: #8a4fff;
-    --light: #eee;
-    --grey: #aaa;
-    --dark:#1e2f42;
+    --primary: #f4f4f4; /* Space gradient first color */
+    --secondary: #f4f4f4; /* Space gradient second color */
+    --light: #1540c9; /* background */
+    --grey: #f4f4f4; /* text */
+    --dark:#f4f4f4; /* title */
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Special Gothic Expanded One", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 button, input {
