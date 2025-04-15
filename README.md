@@ -10,7 +10,7 @@ Each project lives in its own folder and is fully self-contained, with its own a
 |--------|-------------|------|
 | [🎨 colourPaletteGenerator](./colourPaletteGenerator) | A simple tool to generate random color palettes. | [Live Demo](https://colourpalettegenerator1-ej.netlify.app/) |
 | [💡 randomfactGenerator](./randomfactGenerator) | A fun app that displays a random fact on each click. | [Live Demo](https://randomfactgenerator1-ej.netlify.app/) |
-| [🌐 beginnerPortfolio](./beginnerPortfolio) | A simple personal portfolio to showcase beginner-level projects and skills. | [Live Demo](https://portfoliobeginner1-ej.netlify.app) |
+| [🌐 portfolioBeginner](./portfolioBeginner) | A simple personal portfolio to showcase beginner-level projects and skills. | [Live Demo](https://portfoliobeginner1-ej.netlify.app) |
 
 ---
 
