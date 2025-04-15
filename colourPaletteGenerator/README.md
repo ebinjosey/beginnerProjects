@@ -1,4 +1,4 @@
-# Colour Palette Generator
+# 🖌️ Colour Palette Generator
 
 A simple tool to generate random color palettes. Users can click a button to generate new palettes, and clicking a color block copies its corresponding hex value to the clipboard.
 
