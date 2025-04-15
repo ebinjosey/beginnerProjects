@@ -1,6 +1,6 @@
 # 🧪 beginnerProjects
 
-This repository is a collection of small beginner-friendly projects I'm building as I continue learning HTML, CSS, and JavaScript.
+This repository is a collection of small beginner-friendly projects I'm building as I continue learning and experimenting with new languages.
 
 Each project lives in its own folder and is fully self-contained, with its own assets and functionality.
 
@@ -9,6 +9,7 @@ Each project lives in its own folder and is fully self-contained, with its own a
 | Project | Description | Demo |
 |--------|-------------|------|
 | [🎨 colourPaletteGenerator](./colourPaletteGenerator) | A simple tool to generate random color palettes. | [Live Demo](https://colourpalettegenerator9191.netlify.app/) |
+| 
 
 *(More projects coming soon...)*
 
