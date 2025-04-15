@@ -21,7 +21,7 @@ Each project lives in its own folder and is fully self-contained, with its own a
 ## 💡 Why this repo?
 
 I'm using this space to:
-- Practice and experiment with frontend development.
+- Practice and experiment with new languages.
 - Build confidence through small wins.
 - Document my progress publicly.
 
@@ -35,5 +35,3 @@ Feel free to explore, give feedback, or even fork a project to play with it your
 - LinkedIn: [Ebin Josey](https://www.linkedin.com/in/ebinjosey)
 
 ---
-
-Made with ❤️ by Ebin
