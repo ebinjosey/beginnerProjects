@@ -9,7 +9,7 @@ Each project lives in its own folder and is fully self-contained, with its own a
 **Sorted: Newest → Oldest**
 | Project | Description | Demo |
 |--------|-------------|------|
-| [🎨 colourPaletteGenerator](./colourPaletteGenerator) | A simple tool to generate random color palettes. | [Live Demo](https://colourpalettegenerator1-ej.netlify.app/) |
+| [🖌️ colourPaletteGenerator](./colourPaletteGenerator) | A simple tool to generate random color palettes. | [Live Demo](https://colourpalettegenerator1-ej.netlify.app/) |
 | [💡 randomfactGenerator](./randomfactGenerator) | A fun app that displays a random fact on each click. | [Live Demo](https://randomfactgenerator1-ej.netlify.app/) |
 | [🌐 portfolioBeginner](./portfolioBeginner) | A simple personal portfolio to showcase beginner-level projects and skills. | [Live Demo](https://portfoliobeginner1-ej.netlify.app) |
 | [⚛️ PhyChrome](./PhyChrome) | A Chrome extension to boost productivity and learning in physics. It features daily physics concepts with quick summaries and links, plus a built-in unit converter. | — |
