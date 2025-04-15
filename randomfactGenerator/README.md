@@ -1,4 +1,4 @@
-# Random Fact Generator
+# 💡 Random Fact Generator
 
 A fun app that displays a random fact on each click. Users can press a button to get a new fact every time.
 
