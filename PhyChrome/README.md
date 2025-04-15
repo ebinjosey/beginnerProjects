@@ -14,4 +14,4 @@ This project was created as part of the **CS50** course to showcase practical sk
 - **JavaScript** - Logic for daily concept updates and unit conversion
 
 ## Live Demo
-Unfortunately, Chrome extensions cannot be hosted as live demos, but you can check out the repository for the full source code and installation instructions.
+Unfortunately, Chrome extensions cannot be hosted as live demos, but you can check out the repository for the full source code.
