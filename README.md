@@ -6,7 +6,7 @@ Each project lives in its own folder and is fully self-contained, with its own a
 
 ## 🔍 Projects
 
-*Newest to Oldest*
+**Latest Projects First**
 
 | Project | Description | Demo |
 |--------|-------------|------|
