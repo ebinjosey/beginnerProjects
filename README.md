@@ -8,7 +8,7 @@ Each project lives in its own folder and is fully self-contained, with its own a
 
 | Project | Description | Demo |
 |--------|-------------|------|
-| [🎨 colourPaletteGenerator](./colourPaletteGenerator) | A simple tool to generate random color palettes. | [Live Demo](https://your-netlify-link.netlify.app) |
+| [🎨 colourPaletteGenerator](./colourPaletteGenerator) | A simple tool to generate random color palettes. | [Live Demo]([https://your-netlify-link.netlify.app)](https://colourpalettegenerator9191.netlify.app/) |
 
 *(More projects coming soon...)*
 
