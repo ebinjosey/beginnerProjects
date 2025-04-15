@@ -14,9 +14,3 @@ A simple tool to generate random color palettes. Users can click a button to gen
 
 ## Live Demo
 You can try out the live demo here: [Live Demo](https://colourpalettegenerator1-ej.netlify.app/)
-
-## Installation
-To run this project locally:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ebinjosey/colourPaletteGenerator.git
