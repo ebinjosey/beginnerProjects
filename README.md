@@ -22,7 +22,7 @@ Each project lives in its own folder and is fully self-contained, with its own a
 
 I'm using this space to:
 - Practice and experiment with new languages.
-- Build confidence through small wins.
+- Build confidence through small projects.
 - Document my progress publicly.
 
 Feel free to explore, give feedback, or even fork a project to play with it yourself!
