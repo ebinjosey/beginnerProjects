@@ -32,6 +32,6 @@ Feel free to explore, give feedback, or even fork a project to play with it your
 ## 📬 Connect with me
 
 - GitHub: [ebinjosey](https://github.com/ebinjosey)
-- LinkedIn: [Ebin Josey](https://www.linkedin.com/in/ebinjosey)
+- LinkedIn: [Ebin Joseph](https://www.linkedin.com/in/ebinjosey)
 
 ---
