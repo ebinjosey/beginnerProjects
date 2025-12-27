@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bgColor: #333;
+    --textPrimary: #fff;
+    --textSecondary: #666;
+    --primaryColor: #809bc0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bgColor);
+    color: var(--textPrimary);
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+/* HEADER */
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.logo {
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--primaryColor);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    color: var(--textSecondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+.nav-link:hover {
+    color: var(--textPrimary); 
+  }
+
+/* GAME */  
+
+#header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 6px 30px;
+}
+
+#buttons {
+    text-align: right;
+}
+
+main {
+    padding: 0 50px;
+}
+
+button {
+    background-color: var(--textSecondary);
+    border: 0;
+    color: var(--textPrimary);
+    padding: 5px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#info {
+    color: var(--primaryColor);
+}
+
+div#game {
+    position: relative;
+    line-height: 35px;
+    height: 105px;
+    overflow: hidden;
+}
+
+div#game:focus {
+    outline: 0;
+}
+
+#words {
+    filter: blur(5px);
+    color: var(--textSecondary);
+}
+
+#game:focus #words {
+    filter: blur(0);
+}
+
+#focus-error {
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  padding-top: 35px;
+  pointer-events: none;
+}
+
+div.word {
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 5px;
+}
+
+.letter.correct {
+    color: #fff;
+}
+
+.letter.incorrect {
+    color: #f55;
+}
+
+#game:focus #focus-error {
+    display: none;
+}
+
+/* CURSOR */
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#cursor {
+    display:none;
+    width: 2px;
+    height: 1.6rem;
+    background: var(--primaryColor);
+    position: fixed;
+    top: 292px;
+    left: 60px;
+    animation: blink .3s infinite;
+}
+
+#game:focus #cursor {
+    display: block;
+}
+
+/* GAME OVER */
+
+#game.over #words {
+    opacity: .5;
+    filter: blur(0px);
+}
+
+#game.over:focus #cursor {
+    display: none;
+}
+
+#game.over #focus-error {
+    display: none;
+}
+
+/* FOOTER */
+
+.site-footer {
+    display: flex;
+    justify-content: space-around;
+    color: #666;
+}
+
+.footer-link {
+    color: var(--textSecondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-link:hover {
+    color: var(--textPrimary);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
